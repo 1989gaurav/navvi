@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393094023781" ignored="false" />
     <file path="/routes.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393098687184" ignored="false" />
-    <file path="/stores_controller.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393113497585" ignored="false" />
+    <file path="/stores_controller.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393114307390" ignored="false" />
     <file path="/20140222195411_create_stores.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393098865958" ignored="false" />
     <file path="/20140222195535_create_stores.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393113152244" ignored="false" />
     <file path="/store.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393112263086" ignored="false" />
@@ -61,7 +61,7 @@
       <file leaf-file-name="stores_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/stores_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.33898306">
+            <state line="15" column="12" selection-start="359" selection-end="359" vertical-scroll-proportion="0.42372882">
               <folding />
             </state>
           </provider>
@@ -641,7 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/stores_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.33898306">
+        <state line="15" column="12" selection-start="359" selection-end="359" vertical-scroll-proportion="0.42372882">
           <folding />
         </state>
       </provider>
