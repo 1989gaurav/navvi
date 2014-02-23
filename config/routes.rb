@@ -39,7 +39,10 @@ Navvi::Application.routes.draw do
   #     end
   #   end
 
-    resources :stores
+    resources :stores do
+      resources :floors
+    end
+
   # Sample resource route within a namespace:
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
