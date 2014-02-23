@@ -5,14 +5,17 @@
     <ignored path="navvi.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393094023781" ignored="false" />
-    <file path="/routes.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393115170605" ignored="false" />
+    <file path="/routes.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393121531312" ignored="false" />
     <file path="/stores_controller.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393116096587" ignored="false" />
     <file path="/20140222195411_create_stores.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393098865958" ignored="false" />
     <file path="/20140222195535_create_stores.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393113152244" ignored="false" />
     <file path="/store.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393115146802" ignored="false" />
     <file path="/Dummy.txt" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393112534294" ignored="false" />
     <file path="/Error.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393113434197" ignored="false" />
-    <file path="/floors_controller.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393115614180" ignored="false" />
+    <file path="/floors_controller.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393120959355" ignored="false" />
+    <file path="/floor.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393120340943" ignored="false" />
+    <file path="/sections_controller.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393127368755" ignored="false" />
+    <file path="/section.rb" changelist="4294051d-0c07-4831-b08a-cfc963f42696" time="1393127228947" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stores_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/stores_controller.rb">
+      <file leaf-file-name="sections_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sections_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="53" selection-start="479" selection-end="479" vertical-scroll-proportion="0.54310346">
+            <state line="56" column="137" selection-start="2064" selection-end="2064" vertical-scroll-proportion="0.6296296">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="floors_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/floors_controller.rb">
+      <file leaf-file-name="section.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/section.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="6" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+            <state line="10" column="15" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,15 +63,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20140222195411_create_stores.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140222195535_create_stores.rb" />
         <option value="$PROJECT_DIR$/app/helpers/Error.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140223002444_create_floors.rb" />
         <option value="$PROJECT_DIR$/app/models/store.rb" />
+        <option value="$PROJECT_DIR$/app/models/floor.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/floors_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/stores_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/section.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sections_controller.rb" />
       </list>
     </option>
   </component>
@@ -164,6 +170,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navvi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navvi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,20 +586,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140222195535_create_stores.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="153" selection-end="162" vertical-scroll-proportion="0.13537906">
@@ -604,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/floor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="72" selection-end="76" vertical-scroll-proportion="0.05172414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/store.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="18" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
@@ -618,23 +621,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/floor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.05172414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="2" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.45689654">
+        <state line="43" column="27" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.43103448">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/floors_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+        <state line="27" column="47" selection-start="629" selection-end="629" vertical-scroll-proportion="0.43103448">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/stores_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="53" selection-start="479" selection-end="479" vertical-scroll-proportion="0.54310346">
+        <state line="29" column="43" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.15798923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="25" selection-start="531" selection-end="531" vertical-scroll-proportion="0.43103448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140223032102_add_attachment_image_to_sections.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="40" selection-start="201" selection-end="206" vertical-scroll-proportion="0.20689656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/section.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sections_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="137" selection-start="2064" selection-end="2064" vertical-scroll-proportion="0.6296296">
           <folding />
         </state>
       </provider>

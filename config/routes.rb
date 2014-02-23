@@ -40,7 +40,9 @@ Navvi::Application.routes.draw do
   #   end
 
     resources :stores do
-      resources :floors
+      resources :floors do
+        resources :sections
+      end
     end
 
   # Sample resource route within a namespace:
